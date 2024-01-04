@@ -2,7 +2,7 @@
 
 ## RAG demo
 
-This respository contains example code for creating and evaluating a Retrieval Augmented Generation (RAG) pipeline with [LangChain[(https://www.langchain.com/) or [Haystack](https://haystack.deepset.ai/) and [Hugging Face](https://huggingface.co/). 
+This respository contains example code for creating and evaluating a Retrieval Augmented Generation (RAG) pipeline with [LangChain](https://www.langchain.com/) or [Haystack](https://haystack.deepset.ai/) and [Hugging Face](https://huggingface.co/). 
 
 
 ### Data
