@@ -2,7 +2,7 @@
 
 ## RAG demo
 
-This respository contains example code for creating and evaluating a Retrieval Augmented Generation (RAG) pipeline with [LangChain](https://www.langchain.com/) or [Haystack](https://haystack.deepset.ai/) and [Hugging Face](https://huggingface.co/). 
+This respository contains example code for creating and evaluating a Retrieval Augmented Generation (RAG) pipeline with [LangChain](https://www.langchain.com/), [Haystack](https://haystack.deepset.ai/), or [LlamaIndex](https://www.llamaindex.ai/) in combination with [Hugging Face](https://huggingface.co/) embedding and generator models. 
 
 
 ### Data
@@ -18,3 +18,7 @@ For example, you can ask the PDFs: "What is Microsoft's position in AI regulatio
 
 2. RAG evaluation with LangChain:
 The notebook `rag_langchain_ai_law.ipynb` contains an example for automatic RAG evaluation. It first automatically generates questions with an LLM, then passes these questions into a RAG pipeline and then evaluates RAG response quality with an LLM. 
+
+3. RAG pipeline with LlamaIndex:
+The notebook `rag_llamaindex_ai_law.ipynb` contains an example for retrieving, reranking and generating with LlamaIndex, Hugging Face embeddings and Mixtral. 
+
